@@ -1,0 +1,130 @@
+* { 
+margin: 0;
+padding: 0;
+}
+
+*::selection {
+    background: rgba(134, 241, 255, 0.97);
+    color: black;
+}
+
+* {
+    cursor: url(Imagen/Girasol.png), auto;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #109f0b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #11c702;
+    border-radius: 20px;
+    border:3px solid #22cb50;
+}
+
+body {
+  background: rgb(146,255,185);
+background: linear-gradient(90deg, rgba(146,255,185,1) 0%, rgba(140,250,165,1) 35%, rgba(147,255,184,1) 100%);
+    padding: 25px;
+}
+
+hr {
+    height: 5px;
+    background: rgba(0, 163, 6, 0.92);
+}
+
+h1 {
+    color:#007745;
+    font-family: cursive;
+    text-align: center;
+    font-size: 55px;
+    margin: 15px;
+}
+
+h2 {
+    color:#127e27;
+    font-family: cursive;
+    text-align:justify-all;
+    font-size: 40px;
+    margin: 15px;
+}
+
+h3 {
+    color:#048623;
+    font-family: cursive;
+    font-size: 25px;
+    margin: 15px;
+}
+
+h4 {
+    color:#058e00;
+    font-family: cursive;
+    font-size: 25px;
+    margin: 15px;
+}
+
+p {
+    color:#0d1a0d;
+    font-family:serif;
+    text-align:justify;
+    font-size: 1.3vw;
+    line-height: 22px;
+    margin: 15px;
+}
+
+img {
+    border-radius: 30px;
+    width: 550px;
+    height: 400px;
+    margin: 15px;
+}
+
+.img1:hover {
+    filter: saturate(120%);
+}
+
+a {
+    font-size: 20px;
+    color:#2800af;
+    font-family: inherit;
+    margin: 15px;
+}
+
+.navbar {
+	background:#04c674 ;
+}
+
+.navbar a {
+	color: #723b90;
+	display:inlinedefault;
+	padding: 20px;
+	width: 50%;
+	text-align:center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+.btn{
+    
+    display: inline-block;
+    background-color: #008d36;
+    padding: 20px;
+    text-decoration:none;
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    text-decoration:none  
+}
